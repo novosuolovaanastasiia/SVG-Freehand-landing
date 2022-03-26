@@ -1,0 +1,153 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  max-width: 1440px;
+}
+
+.wrapper {
+  margin-top: 38px;
+  margin-bottom: 69px;
+  margin-right: 7.5%;
+  margin-left: 7.5%;
+}
+
+.header-logo {
+  display: flex;
+  margin-top: 38px;
+  height: 80px;
+  width: 90%;
+}
+
+header hr {
+  height: 1px;
+  border: 0px;
+  background-color: #EFEEF3;
+}
+
+h1 {
+  font-family: 'Quicksand', sans-serif;
+  font-size: 35px;
+  line-height: 35px;
+  padding-left: 14px;
+}
+
+main p {
+  margin-top: 55px;
+  color: #7690A8;
+  margin-bottom: 17px;
+}
+
+h2 {
+  font-family: 'Nunito Sans', sans-serif;
+  font-size: 40px;
+  line-height: 52px;
+  margin-bottom: 35px;
+}
+
+.services {
+  display: flex;
+  justify-content: space-around;
+  gap: 3%;
+}
+
+.service,
+.application {
+  border: 1px solid #E5EAF4;
+  border-radius: 8px;
+  height: 347px;
+  width: 32%;
+  padding-left: 41px;
+}
+
+.service svg,
+.application svg {
+  width: 64px;
+  height: 64px;
+  margin-top: 41px;
+  margin-bottom: 28px;
+  border: 1px solid #1565D81A;
+  border-radius: 16px;
+  fill: #007FFC;
+}
+
+.service svg>path {
+  transform: translate(13px, 12px);
+}
+
+.application svg>path {
+  transform: translate(20px, 14px);
+}
+
+.service svg:hover,
+.application svg:hover {
+  background-color: #16133D;
+  fill: #FFFFFF;
+}
+
+.service h3,
+.application h3 {
+  font-size: 24px;
+  padding-bottom: 14px;
+}
+
+.service p,
+.application p {
+  margin-top: 0;
+  padding-right: 45px;
+  padding-bottom: 29px;
+  margin-bottom: 0;
+  color: #16133D;
+}
+
+.service a,
+.application a {
+  text-decoration: none;
+  color: #16133D;
+}
+
+footer {
+  height: 194px;
+  width: 100%;
+  background-color: #16133D;
+  padding-left: 7.5%;
+  padding-top: 36px;
+  padding-bottom: 45px;
+}
+
+.footer-logo {
+  display: flex;
+  color: #FFFFFF;
+  margin-bottom: 45px;
+}
+
+.contacts {
+  display: flex;
+  gap: 8px;
+}
+
+.icon svg,
+.facebook svg {
+  width: 38px;
+  height: 38px;
+  background-color: #FFFFFF;
+  border-radius: 5px;
+  fill: #0D0D0D;
+}
+
+.icon svg>path {
+  transform: translate(10px, 10px);
+}
+
+.facebook svg>path {
+  transform: translate(14px, 10px);
+}
+
+.icon svg:hover,
+.facebook svg:hover {
+  background-color: #3DB370;
+  fill: #FFFFFF;
+}
