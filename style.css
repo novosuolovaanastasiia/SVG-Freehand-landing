@@ -70,6 +70,8 @@ h2 {
   margin-top: 41px;
   margin-bottom: 28px;
   border: 1px solid #1565D81A;
+  border-radius: 16px;
+  fill: #007FFC;
 }
 
 .service svg>path {
@@ -78,6 +80,12 @@ h2 {
 
 .application svg>path {
   transform: translate(20px, 14px);
+}
+
+.service svg:hover,
+.application svg:hover {
+  background-color: #16133D;
+  fill: #FFFFFF;
 }
 
 .service h3,
@@ -112,7 +120,7 @@ footer {
 
 .footer-logo {
   display: flex;
-  color: white;
+  color: #FFFFFF;
   margin-bottom: 45px;
 }
 
@@ -121,13 +129,25 @@ footer {
   gap: 8px;
 }
 
-.icon svg {
+.icon svg,
+.facebook svg {
   width: 38px;
   height: 38px;
-  background-color: white;
+  background-color: #FFFFFF;
   border-radius: 5px;
+  fill: #0D0D0D;
 }
 
 .icon svg>path {
   transform: translate(10px, 10px);
+}
+
+.facebook svg>path {
+  transform: translate(14px, 10px);
+}
+
+.icon svg:hover,
+.facebook svg:hover {
+  background-color: #3DB370;
+  fill: #FFFFFF;
 }
